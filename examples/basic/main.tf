@@ -1,6 +1,6 @@
-module "aweasome_module" {
+module "ssh_key_pair" {
   source    = "../../"
-  name      = "aweasome"
-  stage     = "production"
-  namespace = "sweetops"
+  name      = "cicd"
+  stage     = "staging"
+  namespace = "rlw"
 }
