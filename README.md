@@ -1,5 +1,5 @@
 # terraform-tls-ssh-key-pair
-A simple terraform module to create SSH key-pair.
+A simple terraform module for generating SSH key-pair.
 
 <!-- BEGIN_TF_DOCS -->
 ## Usage
