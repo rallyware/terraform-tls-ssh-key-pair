@@ -16,7 +16,8 @@ output:
   file: README.md
   mode: replace
   template: |-
-    # terraform-module-template
+    # terraform-tls-ssh-key-pair
+    A simple terraform module for generating SSH key-pair.
 
     <!-- BEGIN_TF_DOCS -->
     {{ .Content }}
