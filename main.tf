@@ -14,7 +14,7 @@ resource "tls_private_key" "default" {
 resource "local_sensitive_file" "public_key" {
   count = local.enabled ? 1 : 0
 
-  content              = one(tls_private_key.default[*].public_key_pem)
+  content              = one(tls_private_key.default[*].public_key_openssh)
   filename             = format("%s.pub", local.key_path)
   directory_permission = "0700"
   file_permission      = "0644"
